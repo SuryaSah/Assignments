@@ -1,0 +1,141 @@
+
+
+.container_24{
+}
+
+.banner{
+  background: url(../IMG/car10.jpg) no-repeat;
+  /*height: 479px;*/
+}
+
+header {
+  overflow: hidden;
+
+}
+header h1{
+  background: url(../IMG/CarSellLogo.png) no-repeat;
+  text-indent: -9999px;
+  width:200px;
+  height:60px;
+  margin:10px 10px;
+  float:left;
+}
+
+.header-wrapper {
+  background: #3B4346 url("../IMG/bg01.jpg") top center;
+  box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+}
+nav {
+  float:right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+nav li {
+  display: inline;
+
+  padding: 10px;
+}
+
+/*nav a{
+  text-transform: lowercase;
+}*/
+
+.main {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  clear: both;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+a {
+  color: #7e7e7e;
+  text-decoration: none;
+}
+ a:hover, .Selected{
+  color: black;
+}
+
+li {
+  margin-left: 15px;
+}
+
+.button {
+  background-color: #242324;
+  padding: 6px;
+}
+
+.button:hover {
+  color:white;
+}
+
+p {
+  font-size: 17px;
+  line-height: 20px;
+  color: #35;
+}
+
+h1,h3{
+  letter-spacing: -1px;
+}
+
+h3{
+  font-size: 20px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 27px;
+  margin-bottom: 20px;
+  line-height: 1m;
+  padding-top: 13px;
+}
+
+blockquote {
+  position: relative;
+}
+blockquote,blockquote p {
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.main blockquote p{
+  padding-left: 30px;
+  top:0
+  left:0;
+}
+
+.main blockquote p:first-child::before {
+  content: '"';
+  font-size: 40px;
+  color: #bfbfbf;
+  position: relative;
+  padding-right: 10px;
+}
+
+.main blockquote p:last-child::after {
+  content: '"';
+  font-size: 40px;
+  color: #bfbfbf;
+  float: right;
+  padding-top: 10px;
+}
+
+.banner h2{
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+  font-size: 20px;
+  padding-top: 450px;
+  margin-left: 200px;
+}
+
+.footer1 {
+  /**/
+
+  background: #3B4346 url("../IMG/bg01.jpg") top center;
+  box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+  text-shadow: -1px -1px 1px rgba(1, 0, 0, 0.75);
+  margin-top: 20px;
+  padding-left: 10px;
+}

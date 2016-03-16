@@ -1,0 +1,151 @@
+.container_12 {
+  /*background-color: #D4D9DD;*/
+}
+ header {
+   overflow: hidden;
+
+ }
+ header h1{
+   background: url(../IMG/CarSellLogo.png) no-repeat;
+   text-indent: -9999px;
+   width:200px;
+   height:60px;
+   margin:10px 10px;
+   float:left;
+ }
+
+ .header-wrapper {
+   background: #3B4346 url("../IMG/bg01.jpg") top center;
+   box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+ }
+
+ nav {
+   float:right;
+   padding-top: 10px;
+   padding-right: 20px;
+ }
+ nav li {
+   display: inline;
+
+   padding: 10px;
+ }
+
+
+ /*nav a{
+   text-transform: lowercase;
+ } */
+
+ a {
+   color: #7e7e7e;
+   text-decoration: none;
+ }
+  a:hover, .Selected{
+   color: black;
+ }
+
+ li {
+   margin-left: 15px;
+ }
+
+ .Second li {
+   display: inline;
+ }
+
+ /*.main {
+   margin-top: 20px;
+ }*/
+
+ form {
+   margin-left: 10px;
+   border: 1px solid blue;
+   height: 300px;
+ }
+
+ label,select,input {
+   position: relative;
+   margin-left: 60px;
+ }
+ form h1{
+   position: relative;
+   margin-left: 60px;
+ }
+
+
+.box1 {
+
+  /*background: #3B4346 url("../IMG/pic02.jpg") top center;*/
+  /*box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;*/
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+
+}
+
+.box2 {
+  /*background: white url("../IMG/banner.jpg") top center;*/
+  /*box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;*/
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.footer1 {
+  background: #3B4346 url("../IMG/bg01.jpg") top center;
+  box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.box3 {
+  /*background: #3B4346 url("../IMG/pic07.jpg") top center;*/
+  /*box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;*/
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.box4 {
+  /*background: #3B4346 url("../IMG/bg02.jpg") top center;*/
+  background-color: white;
+  /*box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;*/
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+}
+
+.con {
+  height: 300px;
+  width: 400px;
+  overflow:hidden;
+  position: relative;
+}
+.img {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  animation: mm 15s infinite;
+  opacity: 1;
+}
+
+@keyframes mm{
+  10%{opacity: 1}
+  55%{opacity: 0}
+}
+img:nth-child(0){animation-delay: 3s;}
+img:nth-child(1){animation-delay: 5s;}
+img:nth-child(2){animation-delay: 7s;}
+
+.button {
+  margin-left: 400px;
+  padding: 6px;
+}
+
+.button:hover {
+  color:red;
+}
+
+.text1 {
+  color:red;
+  font-weight:bold;
+}
+
+footer p {
+  margin-top: 20px;
+}
